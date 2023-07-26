@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <style>
+           body{
+            background-image: linear-gradient(lightyellow,orange);
+           }
+            table{
+                border-collapse: collapse;
+            }
+        div{
+            background-color:cornflowerblue;
+            width: 30%;
+            height:350px;
+            margin-top:120px;
+            
+        }
+        input{
+            width: 100%;
+        }
+        tr,th,td{
+            padding:5px 5px;
+        }
+       
+        
+        </style>
+    </head>
+    <body>
+       <center>
+        <div>
+        <form action="list.html" method="POST"> 
+            <table>
+                <tr>
+                    <th colspan="4"><H1>Registrastion Form</H1></th>
+                </tr>
+                <tr>
+                    <td>First name </td>  
+                    <td>Last name </td>
+                </tr>
+                <tr>
+                    <td><input type="text" autofocus></td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td colspan="4">Date Of Birth</td>
+                </tr>
+                <tr>
+                    <td colspan="4"><input type="date" ></td> 
+                </tr>
+                <tr>
+                    <td colspan="4">photo</td>
+                </tr>
+                <tr>
+                    <td colspan="4"><input type="file" multiple></td> 
+                </tr>
+                <tr>
+                    <td colspan="4">City</td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <select style="width: 100%;">
+                            <option value="--Select City--" disabled>--Select City--</option>
+                            <option value="Rajkot">Rajkot</option>
+                            <option value="Ahemdabad">Ahemdabad</option>
+                            <option value="Surat">Surat</option>
+                            <option value="Pune">Pune</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">country</td>
+                </tr>
+                <tr>
+                    <td colspan="4"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><input type="Submit" value="Register now" formtarget="__blank"></td>
+                </tr>
+            </table>
+              </form>
+            </div>
+        </center>
+    </body>
+</html>
