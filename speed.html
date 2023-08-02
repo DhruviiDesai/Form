@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>Addmission Form</title>
+        <style>
+            table{
+                border-collapse: collapse
+            }
+            div{
+                background-image: linear-gradient(lightblue,skyblue);
+                width:70% ;
+                height:550px ;
+                margin-top:60px;
+                margin-left:190px;
+            }
+            body{
+                background-image:linear-gradient(red,blue);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+        <center><h1>Speed Computer</h1></center><hr>
+        <form action="table.html" method="post">
+            <center>
+                <table>
+                    <tr>
+                        <td><img src="images/call-history-icon-png-download-phone-call-icon-11562938562cicefbmbg4.png"width="100px" alt=""></td>
+                        <td colspan="4"><h2>Addmission Form</h2></td>
+                    </tr>
+                    <tr>
+                       <td>First Name</td>
+                       <td><input type="text"autofocus></td>
+                       <td>Last Name</td>
+                       <td><input type="text" autocomplete="on"></td>
+                    </tr>
+                    <tr>
+                        <td>Father's Name </td>
+                        <td colspan="3"><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td colspan="3"><textarea></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" placeholder="Enter your email" required></td>
+                        <td>password:</td>
+                        <td><input type="password"></td>
+                    </tr>
+                    <tr>
+                        <td>Student Mo.:</td>
+                        <td><input type="text"></td>
+                        <td>Parents Mob.:</td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Date of Birth</td>
+                        <td><input type="date"></td>
+                        <td>Gender:</td>
+                        <td><input type="radio" name="gender">Male</td>
+                        <td><input type="radio" name="gender">female</td>
+                    </tr>
+                    <tr>
+                        <td>School/College:</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td>Year:</td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>City:</td>
+                        <td>
+                            <Select>
+                                <option value="Select City" disabled> Select City</option>
+                                <option value="Rajkot">Rajkot</option>
+                                <option value="Ahemdabad">Ahemdabad</option>
+                                <option value="Pune">Pune</option>
+                            </Select>
+                        </td>
+                            <td>Designation:</td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>Course Name</td>
+                            <td>
+                                <input list="Course" name="Course">
+                                <datalist id="Course">
+                                    <option value="CCC"></option>
+                                    <option value="Graphic Design"></option>
+                                    <option value="Web Development"></option>
+                                    <option value="C programming"></option>
+                                    <option value="Tally & Miracle"></option>
+                                 </datalist>
+                            </td>
+                            <td>Batch time:</td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>Course Duration:</td>
+                            <td><input type="text" name="" id=""></td>
+                            <td>Attached Document:</td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>Select Image:</td>
+                            <td><input type="file" multiple></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" align="center"><input type="Submit" value="Submit" formtarget="_blank">
+                            <input type="reset" value="Reset"></td>
+                        </tr>
+                    </table>
+                </center>
+             </form>
+        </div>
+    </body>
+</html>
